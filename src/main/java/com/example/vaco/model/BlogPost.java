@@ -1,4 +1,4 @@
-package com.example.vaco.database;
+package com.example.vaco.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -14,7 +14,7 @@ import java.time.LocalDate;
 @Getter
 @Setter
 @Table(name = "blogs")
-public class BlogEntity {
+public class BlogPost {
 
   @Id @GeneratedValue private int id;
   private String title;

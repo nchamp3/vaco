@@ -1,4 +1,4 @@
-package com.example.vaco.Model;
+package com.example.vaco.model;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
